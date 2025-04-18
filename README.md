@@ -1,8 +1,11 @@
-# This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)
+# Nfield Workbench - A Web app built with Next.js
 
 ## What is this project for?
 
 If you wish to build prototypes for Nfield platform then this project provides the ground work so that you can immediately focus on what you actually want to build. Especially for hackathons, where time is limited, I believe it will be more useful.
+
+> [!INFO]
+> [`Check it out here`](https://workbench-nine.vercel.app/)
 
 ## Project's offering
 
@@ -20,7 +23,7 @@ If you wish to build prototypes for Nfield platform then this project provides t
 First, install:
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 and then run the development server:
@@ -51,5 +54,8 @@ You can check out [`Next.js GitHub repository`](https://github.com/vercel/next.j
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [`Vercel Platform`](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+> [!CAUTION]
+> If you want to deploy on Vercel make sure you use [`npm i --legacy-peer-deps`] on install command since project uses React 19 and libraries have still been adjusting themselves to comply.
 
 Check out [`Next.js deployment documentation`](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
