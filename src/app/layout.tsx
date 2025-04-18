@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Project Tarantula",
-  description: "A workbench for scripters by scripters.",
+  title: "Nfield Workspace",
+  description: "Boilerplate for Nfield Workspace",
 };
 
 export default function RootLayout({
