@@ -9,8 +9,11 @@ If you wish to build prototypes for Nfield platform then this project provides t
 - Equipped with a `/login` route featuring a simple UI to login via the Nfield API.
 - Includes a protected `/dashboard` route where users are redirected upon successful login attempt.
 - Implements route protection using Next.js middleware.
-- Automatically refreshes the token every 10 minutes after a user logs in.
+- Automatically refreshes tokens every 10 minutes after a user logs in.
 - Supports Light/Dark Mode for better user experience.
+
+> [!TIP]
+> Token refresh is only executed under /dashboard route and in its subordinates. If you wish to change or activate the behavior on a different route ensure the refreshtoken component is added to its layout.
 
 ## Getting Started
 
@@ -31,10 +34,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Project uses the following
 
 - [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-- [TypeScript](https://www.typescriptlang.org/) for type safety.
-- [Tailwind](https://tailwindcss.com/) for CSS styles.
-- [shadcn](https://ui.shadcn.com/) for UI component library primitives.
-- [radix-ui](https://www.radix-ui.com/icons) for icons.
+- [`TypeScript`](https://www.typescriptlang.org/) for type safety.
+- [`Tailwind`](https://tailwindcss.com/) for CSS styles.
+- [`shadcn`](https://ui.shadcn.com/) for UI component library primitives.
+- [`radix-ui`](https://www.radix-ui.com/icons) for icons.
 
 ## Learn More
 
