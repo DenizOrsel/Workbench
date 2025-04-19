@@ -42,7 +42,7 @@ export async function signinAction(formData: FormData) {
     value: apiBaseUrl,
     httpOnly: false,
     path: "/",
-    maxAge: 3600,
+    maxAge: 31536000,
     sameSite: "lax",
   });
   cookieStore.set({
@@ -50,7 +50,7 @@ export async function signinAction(formData: FormData) {
     value: domain,
     httpOnly: false,
     path: "/",
-    maxAge: 3600,
+    maxAge: 31536000,
     sameSite: "lax",
   });
   cookieStore.set({
@@ -58,7 +58,7 @@ export async function signinAction(formData: FormData) {
     value: username,
     httpOnly: false,
     path: "/",
-    maxAge: 3600,
+    maxAge: 31536000,
     sameSite: "lax",
   });
   cookieStore.set({
@@ -66,7 +66,7 @@ export async function signinAction(formData: FormData) {
     value: password,
     httpOnly: false,
     path: "/",
-    maxAge: 3600,
+    maxAge: 31536000,
     sameSite: "lax",
   });
   cookieStore.set({
