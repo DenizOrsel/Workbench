@@ -76,7 +76,7 @@ export default function LoginPage() {
             id="domain"
             name="domain"
             type="text"
-            placeholder="example.com"
+            placeholder="example"
             required
           />
         </div>
